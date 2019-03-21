@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
+    "bilduj": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
     "url": "https://github.com/NemanjaMandic/eh-react-boilerplate/issues"
   },
   "homepage": "https://github.com/NemanjaMandic/eh-react-boilerplate#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }
