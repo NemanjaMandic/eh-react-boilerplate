@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "bilduj": "webpack",
-    "dev": "webpack --watch --mode development",
+    "bilduj": "webpack --config webpack.config.prod.js",
+    "dev": "webpack-dev-server --watch  --config webpack.config.dev.js",
     "gs": "git status",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,6 +31,7 @@
     "react-dom": "^16.8.5",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1"
   }
 }
