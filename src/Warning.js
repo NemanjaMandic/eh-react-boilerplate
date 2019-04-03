@@ -1,3 +1,7 @@
-import React from "react";
+import React from 'react'
 
-export default () => <span style={{ color: "red" }}>Take it easy!</span>;
+const Warning = () => <span style={{ color: 'red' }}>Take it easy!</span>
+
+Warning.displayName = 'Warning'
+
+export default Warning

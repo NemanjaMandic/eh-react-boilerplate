@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { hot } from "react-hot-loader";
+import React, { Component } from 'react'
+import { hot } from 'react-hot-loader'
 
-const Warning = React.lazy(() => import("./Warning"));
+const Warning = React.lazy(() => import('./Warning'))
 
 class App extends Component {
   state = {
     count: 0
-  };
+  }
 
   render() {
-    const { count } = this.state;
+    const { count } = this.state
 
-    const style = count > 10 ? "warning" : "disko";
+    const style = count > 10 ? 'warning' : 'disko'
     return (
       <div>
         <h1>Ola World!</h1>
@@ -28,8 +28,8 @@ class App extends Component {
           </React.Suspense>
         ) : null}
       </div>
-    );
+    )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)
