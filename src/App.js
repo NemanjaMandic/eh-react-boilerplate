@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <div>
         <h1>Ola World!</h1>
+        <img src="kurac.png" alt="kurac" />
         <h2 className={style}>Count: {this.state.count}</h2>
         <button onClick={() => this.setState({ count: this.state.count + 1 })}>
           increment +
