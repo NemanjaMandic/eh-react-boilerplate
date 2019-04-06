@@ -9,6 +9,7 @@ class App extends Component {
   }
 
   render() {
+    throw new Error('boom')
     const { count } = this.state
 
     const style = count > 10 ? 'warning' : 'disko'
